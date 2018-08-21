@@ -1,3 +1,6 @@
 This is the zero homework submitted to check I can write C++ code and tex markdown. 
-please compile with simple $make comand or make all or make hello
+To compile please use any gcc compiler (on aci-b use e.g. module load gcc/5.3.1)
+please compile with simple $make comand or $make all or $make hello
 to run execute ./hello
+
+The program should ask your name and grit you with hello, %name%
