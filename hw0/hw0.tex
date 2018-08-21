@@ -76,24 +76,23 @@ My name is \hmwkAuthorNameb.  I am a 5th year PhD student in the Economics depar
 
 My area of interest is computational Industrial Organization and Education research. For my job market paper, I am implementing non-parametric estimator first envisioned in \cite{agarwal2018demand}. I use Gurobi linear solver to check feasibility of group system of linear inequalities. 
 
-I also work on numerical inversion of Pure Characteristics model of demand proposed by \cite{berry2007pure}. 
+I also work on numerical inversion of Pure Characteristics model of demand proposed by \cite{berry2007pure}. To do that I compute the jacobian of direct mapping from structural parameters to market shares and use it in conjunction with interior point optimizer by Knitro 10.3 to find inverse mapping. 
 
 
 \subsection{Accounts}
 
-I have gotten an account on ACI using \url{https://ics.psu.edu/?page_id=57}.  My ACI username is XYZ.
+I have gotten an account on ACI using \url{https://ics.psu.edu/?page_id=57}.  My ACI username is rji5040@psu.edu.
 
-I have gotten an account on XSEDE using \url{https://portal.xsede.org/my-xsede?p_p_id=58&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&saveLastPath=0&_58_struts_action=%2Flogin%2Fcreate_account}.  My username is XYZ.
+I have gotten an account on XSEDE using \url{https://portal.xsede.org/my-xsede?p_p_id=58&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&saveLastPath=0&_58_struts_action}.  My username is rom4ik (or rji5040@psu.edu, I use both to sign in).
 
-I will be making my assignments available using XYZ(github/bitbucket/other). My username is XYZ. 
+I will be making my assignments available using Github (https://github.com/romanis/CS597HW). 
 
 \subsection{My Course Project}
 
-I am currently thinking about choosing XYZ as my $Ax=b$ problem for the semester project. I believe that this will be a good project because
+I am currently thinking about choosing least squares problem or the eigen value decomposition as my $Ax=b$ problem for the semester project. I believe that this will be a good project because
 \begin{itemize}
-  \item reason A
-  \item reason B
-  \item reason ...
+  \item Least squares is widely used in Economics
+  \item Eigen value decomposition is widely used in optimization
 \end{itemize}
 
 
@@ -102,10 +101,10 @@ I am currently thinking about choosing XYZ as my $Ax=b$ problem for the semester
 You can get my assignment onto ACI using the command:
 
 \begin{verbatim}
-git clone USERID@aci-b.aci.ics.psu.edu:/storage/work/a/awl5173/toShare/cse597_fall2018/hw0/psu_cse597-002F18_hw0
+git clone git@github.com:romanis/CS597HW.git
 \end{verbatim}
 
-* Note, test this with us in class or with another person who isn't in the same group(s) as you.
+
 
 \subsection{Program overview}
 
